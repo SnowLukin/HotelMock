@@ -13,7 +13,7 @@ final class HotelMordaViewModel: ObservableObject {
     func fetchHotel() {
         let dispatcher = HotelApiDispatcher()
         dispatcher.fetchHotels(apiRouter: .getHotel) { [weak self] result in
-            DispatchQueue.main.sync {
+            DispatchQueue.main.async {
                 self?.loadState = result
             }
         }
