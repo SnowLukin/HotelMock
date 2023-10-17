@@ -28,13 +28,3 @@ struct PriceItemView: View {
         }
     }
 }
-
-struct PriceItemView_Previews: PreviewProvider {
-    static var previews: some View {
-        VStack {
-            PriceItemView(item: .init(key: "Hello", value: "World!"), isHighlighted: false)
-            Divider()
-            PriceItemView(item: .init(key: "Hello", value: "World!"), isHighlighted: true)
-        }.padding()
-    }
-}

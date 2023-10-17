@@ -11,8 +11,8 @@ final class HotelRoomsViewModel: ObservableObject {
     @Published var loadState: Result<Rooms, ApiError>?
     
     func fetchRooms() {
-        let dispatcher = RoomsApiDispatcher()
-        dispatcher.fetchRooms(apiRouter: .getRooms) { [weak self] result in
+        let dispatcher = HotelApiDispatcher()
+        dispatcher.fetchRooms { [weak self] result in
             DispatchQueue.main.async {
                 self?.loadState = result
             }

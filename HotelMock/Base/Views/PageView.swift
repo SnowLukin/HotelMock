@@ -37,14 +37,3 @@ struct PageView: View {
         .cornerRadius(15)
     }
 }
-
-struct PageView_Previews: PreviewProvider {
-    static var previews: some View {
-        PageView(
-            imageUrls: [
-                "https://worlds-trip.ru/wp-content/uploads/2022/10/white-hills-resort-5.jpeg",
-                "https://q.bstatic.com/xdata/images/hotel/max1024x768/267647265.jpg?k=c8233ff42c39f9bac99e703900a866dfbad8bcdd6740ba4e594659564e67f191&o="
-            ]
-        )
-    }
-}

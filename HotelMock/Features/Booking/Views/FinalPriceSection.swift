@@ -23,14 +23,3 @@ struct FinalPriceSection: View {
         }
     }
 }
-
-struct FinalPriceSection_Previews: PreviewProvider {
-    static var previews: some View {
-        ZStack {
-            Color.black
-            FinalPriceSection(
-                viewModel: .init(BookingInfoMocks.bookingInfo())
-            )
-        }
-    }
-}

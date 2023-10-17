@@ -23,9 +23,3 @@ struct TitleView: View {
             .frame(maxWidth: .infinity, alignment: .leading)
     }
 }
-
-struct TitleView_Previews: PreviewProvider {
-    static var previews: some View {
-        TitleView("Hello, World!")
-    }
-}

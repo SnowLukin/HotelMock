@@ -30,15 +30,3 @@ struct BaseSection<Content: View>: View {
         .cornerRadius(12)
     }
 }
-
-struct BaseSection_Previews: PreviewProvider {
-    static var previews: some View {
-        ZStack {
-            Color.black
-            BaseSection {
-                Text("Hellow")
-                Text("World")
-            }
-        }
-    }
-}

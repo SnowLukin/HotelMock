@@ -21,9 +21,3 @@ struct CoordinatorView: View {
         .environmentObject(coordinator)
     }
 }
-
-struct CoordinatorView_Previews: PreviewProvider {
-    static var previews: some View {
-        CoordinatorView()
-    }
-}

@@ -26,13 +26,3 @@ struct HotelMainInfoView: View {
         }
     }
 }
-
-struct HotelMainInfoView_Previews: PreviewProvider {
-    static var previews: some View {
-        HotelMainInfoView(
-            ratingTitle: "5 Превосходно",
-            name: "Лучший пятизвездочный отель в Хургаде, Египет",
-            adress: "Madinat Makadi, Safaga Road, Makadi Bay, Египет"
-        ) {}
-    }
-}

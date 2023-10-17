@@ -29,9 +29,3 @@ struct ClickableTitleView: View {
         }
     }
 }
-
-struct ClickableTitleView_Previews: PreviewProvider {
-    static var previews: some View {
-        ClickableTitleView("Hello, World!") {}
-    }
-}

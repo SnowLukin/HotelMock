@@ -22,15 +22,6 @@ struct TouristSection: View {
     }
 }
 
-struct TouristSection_Previews: PreviewProvider {
-    static var previews: some View {
-        ZStack {
-            Color.black
-            TouristSection(viewModel: .init(1))
-        }
-    }
-}
-
 extension TouristSection {
     var header: some View {
         HStack {

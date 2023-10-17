@@ -29,12 +29,6 @@ struct HotelMordaView: View {
     }
 }
 
-struct HotelMordaView_Previews: PreviewProvider {
-    static var previews: some View {
-        HotelMordaView()
-    }
-}
-
 extension HotelMordaView {
     @ViewBuilder
     private func hotelView(_ hotel: Hotel) -> some View {

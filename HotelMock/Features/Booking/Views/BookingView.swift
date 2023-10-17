@@ -29,12 +29,6 @@ struct BookingView: View {
     }
 }
 
-struct BookingView_Previews: PreviewProvider {
-    static var previews: some View {
-        BookingView()
-    }
-}
-
 extension BookingView {
     @ViewBuilder
     private func content(_ booking: Booking) -> some View {

@@ -26,9 +26,3 @@ struct ClickableTagView: View {
         )
     }
 }
-
-struct ClickableTagView_Previews: PreviewProvider {
-    static var previews: some View {
-        ClickableTagView("Hello, World!")
-    }
-}

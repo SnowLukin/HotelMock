@@ -23,14 +23,3 @@ struct HotelMordaDescriptionSection: View {
         }
     }
 }
-
-struct HotelMordaDescriptionSection_Previews: PreviewProvider {
-    static var previews: some View {
-        ZStack {
-            Color.black
-            HotelMordaDescriptionSection(
-                viewModel: .init(HotelMocks.hotel())
-            )
-        }
-    }
-}

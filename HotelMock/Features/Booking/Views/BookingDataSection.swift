@@ -21,14 +21,3 @@ struct BookingDataSection: View {
         }
     }
 }
-
-struct BookingDataSection_Previews: PreviewProvider {
-    static var previews: some View {
-        ZStack {
-            Color.black
-            BookingDataSection(
-                viewModel: .init(BookingInfoMocks.bookingInfo())
-            )
-        }
-    }
-}

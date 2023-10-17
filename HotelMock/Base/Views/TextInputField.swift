@@ -48,16 +48,6 @@ struct TextInputField: View {
     }
 }
 
-struct TextInputField_Previews: PreviewProvider {
-    @State static private var text = ""
-    static var previews: some View {
-        ZStack {
-            Color.black
-            TextInputField("Hello, World!", text: $text)
-        }
-    }
-}
-
 extension TextInputField {
     private var placeholder: some View {
         Text(name)

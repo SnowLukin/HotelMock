@@ -19,12 +19,3 @@ struct TagItemView: View {
             )
     }
 }
-
-struct TagItemView_Previews: PreviewProvider {
-    static var previews: some View {
-        ZStack {
-            Color.black
-            TagItemView(text: "Hello, World!")
-        }
-    }
-}

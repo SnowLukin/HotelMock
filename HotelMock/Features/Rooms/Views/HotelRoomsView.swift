@@ -31,12 +31,6 @@ struct HotelRoomsView: View {
     }
 }
 
-struct HotelRoomsView_Previews: PreviewProvider {
-    static var previews: some View {
-        HotelRoomsView(hotelName: "Hello, World!")
-    }
-}
-
 extension HotelRoomsView {
     @ViewBuilder
     private func roomsView(_ rooms: [Room]) -> some View {

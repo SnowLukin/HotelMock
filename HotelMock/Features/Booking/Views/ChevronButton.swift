@@ -30,11 +30,3 @@ struct ChevronButton: View {
         .buttonStyle(.plain)
     }
 }
-
-struct ChevronButton_Previews: PreviewProvider {
-    static var previews: some View {
-        ChevronButton {
-            
-        }
-    }
-}

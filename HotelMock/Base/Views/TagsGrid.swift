@@ -34,19 +34,6 @@ struct TagsGrid: View {
     }
 }
 
-struct TagsGrid_Previews: PreviewProvider {
-    static var previews: some View {
-        TagsGrid(
-            items: [
-                "Бесплатный Wifi на всей территории отеля",
-                "1 км до пляжа",
-                "Бесплатный фитнес-клуб",
-                "20 км до аэропорта"
-            ]
-        )
-    }
-}
-
 extension View {
     func readSize(onChange: @escaping (CGSize) -> Void) -> some View {
         background(

@@ -29,9 +29,3 @@ struct PriceTitleView: View {
         .frame(maxWidth: .infinity, alignment: .leading)
     }
 }
-
-struct PriceTitleView_Previews: PreviewProvider {
-    static var previews: some View {
-        PriceTitleView("123456", text: "Hello, World!jhkjhkjhjhkjhkjhkjhjhkjhkjhkjhkjhkjhkjhkjh")
-    }
-}

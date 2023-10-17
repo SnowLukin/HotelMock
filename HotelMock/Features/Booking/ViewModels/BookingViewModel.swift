@@ -23,8 +23,8 @@ final class BookingViewModel: ObservableObject {
     }
     
     func fetchBookingInfo() {
-        let dispatcher = BookingApiDispatcher()
-        dispatcher.fetchBookingInfo(apiRouter: .getBooking) { [weak self] result in
+        let dispatcher = HotelApiDispatcher()
+        dispatcher.fetchBookingInfo { [weak self] result in
             DispatchQueue.main.async {
                 self?.loadingState = result
                 self?.touristSectionModels = [.init(1)]

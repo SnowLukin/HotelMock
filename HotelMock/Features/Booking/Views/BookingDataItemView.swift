@@ -24,10 +24,3 @@ struct BookingDataItemView: View {
         }
     }
 }
-
-struct BookingDataItemView_Previews: PreviewProvider {
-    static var previews: some View {
-        BookingDataItemView(item: .init(key: "Вылет из", value: "Санкт-Петербург")
-        ).padding(16)
-    }
-}

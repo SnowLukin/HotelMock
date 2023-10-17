@@ -22,14 +22,3 @@ struct AddTouristSection: View {
         }
     }
 }
-
-struct AddTouristSection_Previews: PreviewProvider {
-    static var previews: some View {
-        ZStack {
-            Color.black
-            AddTouristSection {
-                
-            }
-        }
-    }
-}

@@ -27,11 +27,3 @@ struct AddTouristButton: View {
         .buttonStyle(.plain)
     }
 }
-
-struct AddTouristButton_Previews: PreviewProvider {
-    static var previews: some View {
-        AddTouristButton() {
-            
-        }
-    }
-}

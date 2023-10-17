@@ -39,9 +39,3 @@ struct SuccessfulTransactionView: View {
         .navigationTitle("Заказ оплачен")
     }
 }
-
-struct SuccessfulTransactionView_Previews: PreviewProvider {
-    static var previews: some View {
-        SuccessfulTransactionView()
-    }
-}

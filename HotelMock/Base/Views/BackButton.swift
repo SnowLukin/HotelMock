@@ -21,9 +21,3 @@ struct BackButton: View {
         .frame(width: 32)
     }
 }
-
-struct BackButton_Previews: PreviewProvider {
-    static var previews: some View {
-        BackButton()
-    }
-}

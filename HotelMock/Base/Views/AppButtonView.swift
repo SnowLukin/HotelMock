@@ -31,9 +31,3 @@ struct AppButtonView: View {
         .cornerRadius(15)
     }
 }
-
-struct AppButtonView_Previews: PreviewProvider {
-    static var previews: some View {
-        AppButtonView("Hello, World!") {}
-    }
-}

@@ -30,31 +30,6 @@ struct HotelSpecsListView: View {
     }
 }
 
-struct HotelSpecsListView_Previews: PreviewProvider {
-    static var previews: some View {
-        ZStack {
-            Color.black
-            HotelSpecsListView(items: [
-                SpecListItem(
-                    title: "Удобства",
-                    text: "Самое необходимое",
-                    image: Images.emojiHappy
-                ),
-                SpecListItem(
-                    title: "Что включено",
-                    text: "Самое необходимое",
-                    image: Images.tickSquare
-                ),
-                SpecListItem(
-                    title: "Что не включено",
-                    text: "Самое необходимое",
-                    image: Images.closeSquare
-                )
-            ]).padding(16)
-        }
-    }
-}
-
 extension HotelSpecsListView {
     @ViewBuilder
     private func cell(for item: SpecListItem) -> some View {

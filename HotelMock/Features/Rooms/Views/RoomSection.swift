@@ -29,12 +29,3 @@ struct RoomSection: View {
         }
     }
 }
-
-struct RoomSection_Previews: PreviewProvider {
-    static var previews: some View {
-        ZStack {
-            Color.black
-            RoomSection(viewModel: .init(RoomsMocks.room())) {}
-        }
-    }
-}

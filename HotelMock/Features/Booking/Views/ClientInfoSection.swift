@@ -36,14 +36,3 @@ struct ClientInfoSection: View {
         }
     }
 }
-
-struct ClientInfoSection_Previews: PreviewProvider {
-    @State static var number = ""
-    @State static var mail = ""
-    static var previews: some View {
-        ZStack {
-            Color.black
-            ClientInfoSection(numberTFText: $number, mailTFText: $mail)
-        }
-    }
-}
